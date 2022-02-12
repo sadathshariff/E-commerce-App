@@ -22,6 +22,10 @@ form .input-checkbox input {
   width: 1.3rem;
   height: 1.3rem;
 }
+.signup-text,
+.login-text {
+  font-weight: var(--font-dark);
+}
 
 /* Login */
 .forgot-password-div {
