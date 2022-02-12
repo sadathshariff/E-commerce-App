@@ -9,6 +9,7 @@
   padding: 1.5rem;
   background-color: var(--white-color);
   box-shadow: var(--box-shadow-light-card);
+  border-radius: 5px;
 }
 form .input {
   padding: 0.5rem 0;
