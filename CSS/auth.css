@@ -1,0 +1,23 @@
+.signup-card {
+  margin: 6rem auto;
+}
+.signup {
+  max-width: 28rem;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--white-color);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+form .input {
+  padding: 0.5rem 0;
+}
+
+form .input-checkbox p {
+  margin-left: 1rem;
+}
+form .input-checkbox input {
+  width: 1rem;
+  height: 1rem;
+}

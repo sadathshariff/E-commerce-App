@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input-search {
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 0.5rem;
+  width: 30rem;
+}
+.nav-items {
+  align-items: center;
+}
+.badge-div i {
+  font-size: 1.6rem;
+}
+.badge-div .badge-number {
+  background-color: var(--warning-color);
+  top: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-items {
+    order: 1;
+  }
+  .input-search {
+    order: 2;
+  }
+}
