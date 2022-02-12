@@ -1,0 +1,37 @@
+.signup-card,
+.login-card {
+  margin: 6rem auto;
+}
+.signup,
+.login {
+  max-width: 28rem;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow-light-card);
+  border-radius: 5px;
+}
+form .input {
+  padding: 0.5rem 0;
+}
+
+form .input-checkbox p {
+  margin-left: 1rem;
+}
+form .input-checkbox input {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.signup-text,
+.login-text {
+  font-weight: var(--font-dark);
+}
+
+/* Login */
+.forgot-password-div {
+  justify-content: space-between;
+  font-weight: var(--font-dark);
+}
+.forgot-password-link {
+  color: var(--primary-color);
+}

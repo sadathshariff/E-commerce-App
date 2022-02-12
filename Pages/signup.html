@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Yard | SignUp</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/CommonStyles/style.css" />
+    <link rel="stylesheet" href="../CSS/auth.css" />
+  </head>
+  <body>
+    <header class="header navbar-container">
+      <h1 class="headline-2">
+        <a href="">E-Yard</a>
+      </h1>
+      <input
+        type="search"
+        name="search"
+        placeholder="Search"
+        class="input-search"
+      />
+      <nav class="flex nav-items">
+        <button class="btn btn-secondary">
+          <a href="./login.html">Login</a>
+        </button>
+        <div class="badge-div">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="badge-number">2</span>
+        </div>
+        <div class="badge-div">
+          <i class="fa fa-heart"></i>
+          <span class="badge-number">4</span>
+        </div>
+      </nav>
+    </header>
+    <main class="signup-card">
+      <section class="signup">
+        <h3 class="headline-2 text-center">SignUp</h3>
+        <form>
+          <div class="input">
+            <label class="small-text-2" for="EmailAddress"
+              >Email address*</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="EmailAddress"
+              class="input-text"
+              required
+            />
+          </div>
+          <div class="input">
+            <label class="small-text-2" for="Password">Password*</label>
+            <input
+              type="password"
+              name="password"
+              id="Password"
+              class="input-text"
+              required
+            />
+          </div>
+          <div class="input input-checkbox">
+            <label for="checkbox1">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox1"
+                checked=""
+              />
+              <p class="small-text-3">I accept all Terms & Conditions</p>
+            </label>
+          </div>
+          <div class="input">
+            <button class="btn btn-primary">
+              <a href="">Create New Account</a>
+            </button>
+          </div>
+          <div class="input text-center">
+            <p class="small-text-3">
+              <a class="login-text" href="./login.html">
+                Already have an account</a
+              >
+              <i class="fas fa-chevron-right"></i>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

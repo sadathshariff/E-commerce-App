@@ -1,8 +1,7 @@
 @import url("https://thecssyard.netlify.app./CSS/style.css");
+@import url("./variable.css");
 @import url("./navbar.css");
 
 html {
-  font-size: 62.5%;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
