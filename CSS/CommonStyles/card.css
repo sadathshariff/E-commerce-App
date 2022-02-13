@@ -1,0 +1,22 @@
+.card {
+  width: 19rem;
+  height: 30rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+  margin: 1rem;
+}
+
+.card-img {
+  height: 19rem;
+  object-fit: contain;
+  background-color: rgb(250, 249, 248);
+}
+.card-header {
+  justify-content: space-between;
+}
+.heart-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+.ecom-card-price {
+  font-weight: var(--font-dark);
+}
