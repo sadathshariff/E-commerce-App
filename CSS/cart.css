@@ -8,7 +8,7 @@
 .cart-item {
   margin-top: 2rem;
   height: max-content;
-  width: 500px;
+  width: 32rem;
   display: flex;
   padding: 1.5rem 1rem;
   background-color: var(--off-white);
@@ -19,7 +19,7 @@
 }
 .card-item-img {
   height: max-content;
-  width: 250px;
+  width: 16rem;
   background-color: var(--off-white);
 }
 .cart-item-content {
@@ -36,8 +36,8 @@
   border-radius: 5px;
 }
 .cart-img {
-  height: 300px;
-  width: 250px;
+  height: 19rem;
+  width: 16rem;
   object-fit: cover;
 }
 .cart-item-price-info {
@@ -52,7 +52,7 @@
 .cart-item-checkout-info {
   height: max-content;
   margin-top: 2rem;
-  width: 350px;
+  width: 22rem;
   border-radius: 10px;
   padding: 1rem;
   background-color: var(--off-white);
