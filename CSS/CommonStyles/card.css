@@ -1,14 +1,15 @@
 .card {
   width: 19rem;
-  height: 30rem;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+  height: max-content;
   margin: 1rem;
+  background-color: var(--off-white);
 }
 
 .card-img {
-  height: 19rem;
   object-fit: contain;
-  background-color: rgb(250, 249, 248);
+}
+.card-img:hover {
+  cursor: pointer;
 }
 .card-header {
   justify-content: space-between;
