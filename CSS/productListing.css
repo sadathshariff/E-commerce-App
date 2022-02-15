@@ -45,19 +45,3 @@
   padding: 1rem;
 }
 
-.footer .footer-social-links {
-  display: flex;
-  justify-content: center;
-}
-.footer-social-links ul {
-  padding-inline-start: 0;
-  display: flex;
-}
-.footer-social-links li {
-  padding: 1rem;
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-.heartColor {
-  color: var(--warning-color);
-}
