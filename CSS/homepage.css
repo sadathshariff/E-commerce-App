@@ -15,12 +15,16 @@ main {
 .nav-links li a:hover {
   cursor: pointer;
   text-decoration: underline;
+  color: var(--primary-color);
 }
 .categories {
   margin: auto;
 }
 .categories h3 {
   margin: 1rem 0;
+}
+ul {
+  padding-inline-start: 0;
 }
 .categories ul {
   justify-content: space-around;
@@ -58,11 +62,18 @@ main {
   color: var(--off-white);
 }
 .hero-text-secondary {
-  color: var(--secondary-color);
+  color: black;
+  font-weight: var(--font-dark);
 }
 .btn .category-info .small-text-3 {
   font-weight: var(--font-medium);
 }
 .category-info .icon {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .hide-in-mobile {
+    display: none;
+  }
 }
