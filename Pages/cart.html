@@ -64,15 +64,22 @@
             <p class="small-text-2 gray-text">50% off</p>
             <div class="flex input-qty-div">
               <div class="headline-3">Qty:</div>
-              <input
-                type="number"
-                step="1"
-                min="1"
-                max=""
-                name="quantity"
-                value="1"
-                class="input-qty text-center"
-              />
+              <div class="flex input-qty-btns">
+                <button type="button" class="btn btn-primary btn-float">
+                  <i class="fa fa-plus"></i>
+                </button>
+                <input
+                  step="1"
+                  min="1"
+                  max=""
+                  name="quantity"
+                  value="1"
+                  class="input-qty text-center"
+                />
+                <button type="button" class="btn btn-primary btn-float">
+                  <i class="fa fa-minus"></i>
+                </button>
+              </div>
             </div>
             <button class="cart-item-btn btn btn-secondary">
               Remove from Cart
